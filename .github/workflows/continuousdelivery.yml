@@ -7,8 +7,11 @@ jobs:
   delivery:
     runs-on: ubuntu-latest
     steps:
+        - name: Check out code
+          uses: actions/checkout@v4
+
         - name: Simulando Continuous Delivery
           uses: actions/upload-artifact@v4
           with:
-              name: projetocompactado
-              path: ../projetosoa/
+            name: projetocompactado
+            path: projetodevops/projetosoa/
