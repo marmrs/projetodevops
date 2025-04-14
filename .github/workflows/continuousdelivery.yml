@@ -14,4 +14,4 @@ jobs:
           uses: actions/upload-artifact@v4
           with:
             name: projetocompactado
-            path: projetodevops/projetosoa/
+            path: '**.xml'
