@@ -13,5 +13,5 @@ jobs:
         - name: Simulando Continuous Delivery
           uses: actions/upload-artifact@v4
           with:
-            name: projetocompactado
-            path: '**.xml'
+            name: arquivoreadme
+            path: README.md
