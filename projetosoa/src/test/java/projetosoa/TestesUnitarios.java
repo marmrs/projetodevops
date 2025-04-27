@@ -12,7 +12,14 @@ public void testesomar() {
 }
 
 @Test	
-public void testesubstrair() {
+public void testesomar2() {
+	Calculadora calculadora = new Calculadora();
+    int resultado = calculadora.somar(0, 3);
+    assertEquals(3, resultado);	
+}
+
+@Test	
+public void testesubtrair() {
 	Calculadora calculadora = new Calculadora();
     int resultado = calculadora.subtrair(3, 2);
     assertEquals(1, resultado);	
@@ -31,4 +38,5 @@ public void testemultiplicar() {
     int resultado = calculadora.dividir(10, 5);
     assertEquals(50, resultado);	
 }
+
 }
