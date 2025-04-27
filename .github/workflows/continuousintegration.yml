@@ -15,6 +15,6 @@ jobs:
             distribution: 'temurin'
             cache: maven
         - name: Run the Maven verify phase
-          run: mvn --batch-mode --update-snapshots verify
+          run: mvn -f projetosoa\pom.xml --batch-mode --update-snapshots verify
 
 
